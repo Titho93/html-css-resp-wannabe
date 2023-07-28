@@ -132,9 +132,32 @@ img {
     .container {
         padding: 0;
         max-width: 700px;
+
     }
  }
 
- @media screen and (max-width: ) {
+ @media screen and (max-width: 480px) {
+    .container {
+        max-width: 450px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .why-us .col {
+        width: 100%;
+        padding-top: 60px;
+    }
     
  }
